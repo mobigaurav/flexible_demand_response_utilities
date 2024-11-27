@@ -119,7 +119,7 @@ async def on_cancel_party_registration(payload):
       
 
 server = OpenADRServer(vtn_id='MyVTN',
-                       requested_poll_freq=timedelta(seconds=60),
+                       #requested_poll_freq=timedelta(seconds=60),
                        http_port = 8081,
                        verify_message_signatures=False,
                        show_server_cert_domain=False
